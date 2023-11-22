@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "./Build",
+        "strict": true
+    },
+    "include": [
+        "./src"
+    ]
+}
