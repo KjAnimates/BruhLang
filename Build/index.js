@@ -4,7 +4,7 @@ var languageConfig_1 = require("./languageConfig");
 var token_1 = require("./token");
 var token_2 = require("./token");
 var languageConfig = new languageConfig_1.default();
-var code = "var x = 5";
+var code = "x = 5";
 /**
  * Splits the big string into little strings (Tokens).s
  */
@@ -38,7 +38,5 @@ function parse() {
 function execute() {
     var tokens = parse();
     console.log(tokens);
-    for (var i = 0; i < tokens.length; i++) {
-    }
 }
 execute();
